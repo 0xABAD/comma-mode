@@ -349,7 +349,7 @@ characters."
 (define-key comma-mode-map (kbd "o")   'comma-mode-insert-newline-below)
 (define-key comma-mode-map (kbd "O")   'comma-mode-insert-newline-above)
 (define-key comma-mode-map (kbd "s")   'comma-mode-search-forward-char)
-(define-key comma-mode-map (kbd "S")   'comma-mode-search-backward-char)
+(define-key comma-mode-map (kbd "r")   'comma-mode-search-backward-char)
 (define-key comma-mode-map (kbd "Y")   'comma-mode-yo-yo)
 (define-key comma-mode-map (kbd "y")   'yank)
 (define-key comma-mode-map (kbd "w")   'kill-region)
@@ -373,10 +373,8 @@ characters."
 (define-key comma-mode-map (kbd "K")   'beginning-of-defun)
 (define-key comma-mode-map (kbd "n")   'next-line)
 (define-key comma-mode-map (kbd "N")   'next-error)
-(define-key comma-mode-map (kbd "M-n") 'end-of-buffer)
 (define-key comma-mode-map (kbd "p")   'previous-line)
 (define-key comma-mode-map (kbd "P")   'previous-error)
-(define-key comma-mode-map (kbd "M-p") 'beginning-of-buffer)
 (define-key comma-mode-map (kbd "v")   'down-list)
 (define-key comma-mode-map (kbd "V")   'up-list)
 (define-key comma-mode-map (kbd "z")   'repeat)
@@ -430,8 +428,6 @@ characters."
 (define-key comma-mode-map (kbd "c c")   'comment-region)
 (define-key comma-mode-map (kbd "c u")   'uncomment-region)
 (define-key comma-mode-map (kbd "c q")   'self-send-quit-other-window)
-(define-key comma-mode-map (kbd "c M-p") 'beginning-of-buffer-other-window)
-(define-key comma-mode-map (kbd "c M-n") 'end-of-buffer-other-window)
 
 ;; ====================> END COMMA-MODE KEYMAP DEFINITIONS <====================
 
