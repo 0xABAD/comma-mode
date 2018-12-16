@@ -390,6 +390,7 @@ characters."
 (define-key comma-mode-map (kbd "x x")     'exchange-point-and-mark)
 (define-key comma-mode-map (kbd "x u")     'upcase-region)
 (define-key comma-mode-map (kbd "x l")     'downcase-region)
+(define-key comma-mode-map (kbd "x t")     'transpose-lines)
 (define-key comma-mode-map (kbd "x h")     'mark-whole-buffer)
 (define-key comma-mode-map (kbd "x :")     'eval-expression)
 (define-key comma-mode-map (kbd "x !")     'async-shell-command)
