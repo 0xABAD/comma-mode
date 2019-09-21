@@ -317,11 +317,7 @@ characters."
     (define-key comma-mode-map (kbd str)
       `(lambda (arg)
          (interactive "p")
-         (comma-mode-search-forward-char arg ,ch)))
-    (define-key comma-mode-map (kbd (concat "M-" str))
-      `(lambda (arg)
-         (interactive "p")
-         (comma-mode-search-backward-char arg ,ch)))))
+         (comma-mode-search-forward-char arg ,ch)))))
 
 (define-key comma-mode-map [?0] 'digit-argument)
 (define-key comma-mode-map [?1] 'digit-argument)
