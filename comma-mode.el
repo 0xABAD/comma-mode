@@ -81,6 +81,7 @@
 ;; at the bottom of this file.  Override any of these keybindings in your
 ;; init.el file.
 
+(require 'seq)
 (require 'rect)
 (require 'subword)
 (require 'paren)
